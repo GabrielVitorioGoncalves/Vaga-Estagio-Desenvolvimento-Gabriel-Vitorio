@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <script src="script.js"></script>
+    <title>Consulta de Endereço</title>
+</head>
+<body>
+    <h1>Consulta de Endereço</h1>
+    <input type ="text" id="cep" placeholder="Digite o CEP" maxlength="8">
+    <button onclick="buscarCEP()">Buscar</button>
+    <p id="mensagem"></p>
+    <table>
+        <thead>
+            <tr>
+                <th onclick="ordenar('cidade')">Cidade</th>
+                <th onclick="ordenar('bairro')">Bairro</th>
+                <th onclick="ordenar('estado')">Estado</th>
+            </tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+    </table>
+</body>
+</html>

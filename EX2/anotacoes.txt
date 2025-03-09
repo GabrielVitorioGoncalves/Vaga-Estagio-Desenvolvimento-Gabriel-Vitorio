@@ -1,0 +1,9 @@
+
+    1 passo criar a requisicao
+    2 saber como vou guardar os endereços (Se vai ser no local Storage, mysql, ou de alguma outra forma)
+    3 depois criar a parte de mostrar os enderecos e ordenar eles
+
+    Parte mais dificil seria fazer a requisicao, e fazer a function ordenar nao faço a minima ideia de como fazer
+
+    
+
